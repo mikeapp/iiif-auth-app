@@ -12,7 +12,7 @@ require 'json'
         puts "Initializing #{controller}"
         hostname = Rails.application.config.iiif_auth_hostname
 
-        service_json = <<~JSON
+        service_json = <<JSON
         {"service": {
             "@context": "http://iiif.io/api/auth/0/context.json",
             "@id": "http://#{hostname}/login",
@@ -31,7 +31,7 @@ require 'json'
         ]
         }
         }
-        JSON
+JSON
         @service = JSON.parse(service_json)
 
         # if user is defined
