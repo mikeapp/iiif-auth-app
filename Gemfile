@@ -48,6 +48,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'riiif', path: '/Users/mikea/code/ruby/riiif'
+gem 'riiif', git: "https://github.com/mikeapp/riiif", branch: 'auth'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'pg'

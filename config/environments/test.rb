@@ -40,6 +40,6 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
-  config.iiif_auth_domain =  "localhost:5000"
+  config.iiif_auth_hostname =  "localhost:5000"
   config.iiif_image_hostname = "localhost:3000"
 end

@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/mikea/code/ruby/riiif
+GIT
+  remote: https://github.com/mikeapp/riiif
+  revision: 5ee7f651a616b21a08751d34abdf0c035fbabb73
+  branch: auth
   specs:
     riiif (0.4.1)
       rails (> 3.2.0)

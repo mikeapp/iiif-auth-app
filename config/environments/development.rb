@@ -52,6 +52,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.iiif_auth_domain =  "localhost:5000"
+  config.iiif_auth_hostname=  "localhost:5000"
   config.iiif_image_hostname = "localhost:3000"
 end
