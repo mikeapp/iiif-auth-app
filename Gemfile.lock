@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/mikeapp/riiif
-  revision: 5ee7f651a616b21a08751d34abdf0c035fbabb73
+  revision: f6f8d1c62ccd5ff31be66f6346dcaf736a6bb81a
   branch: auth
   specs:
     riiif (0.4.1)
