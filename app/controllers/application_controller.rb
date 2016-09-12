@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
   end
 
   def user_from_authorization
-    header = headers['Authorization']
+    header = request.headers['HTTP_AUTHORIZATION']
     if header and header.start_with?('Bearer ')
       bearer, space, token = header.split(' ')
       @user = decrypt(token)
