@@ -51,7 +51,7 @@ JSON
 
       def degraded_image_uri(image)
         image_host = Rails.application.config.iiif_image_hostname
-        return "http://#{image_host}/image-service/#{get_id(image)}-1" if get_format(image) == '3'
+        return "http://#{image_host}/image-service/#{get_id(image)}-1/info.json" if get_format(image) == '3'
         nil
       end
 
